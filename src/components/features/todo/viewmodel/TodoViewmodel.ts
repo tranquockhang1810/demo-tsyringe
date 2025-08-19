@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { container } from "tsyringe";
+import { container } from "@/DependenciesInjection";
 import { ITodoRepository } from "../../../../api/features/todo/repositories/TodoRepository";
 import { TodoResponseModel } from "../../../../api/features/todo/models/TodoResponseModel";
 
